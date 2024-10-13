@@ -1,0 +1,57 @@
+body {
+    text-align: left; 
+    background: #ffffff;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+  }
+  
+  .separator {
+    width: 10%;
+  }
+  
+  .title {
+    text-align: left; 
+    margin-top: 100px;
+    margin-bottom: 10px;
+    
+    a {
+      color: #0774f9;
+      
+      &:hover {
+        text-decoration: solid;
+        font-weight: bold;
+      }
+    }
+    
+    hr {
+      width: 75%;
+    }
+  }
+  
+  .summary {
+    padding: 15px;
+    
+    p {
+      text-align: left;  
+      font-size: 0.8rem;
+      letter-spacing: .1rem;
+    }
+  }
+  #skills{
+    display: none;
+  }
+  
+  .work-experience {
+    padding: 15px;
+    
+    .experience-title {
+      margin-top: 50px;
+    }
+    
+    
+    p {
+      font-size: 0.8rem;
+      letter-spacing: .1rem;
+    }
+  }
